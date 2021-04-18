@@ -1,0 +1,30 @@
+@media only screen and (min-width: 480px) {
+    /* For mobile phones: */
+    .lab0 {
+      width: 100%;
+    }
+    .lab1{
+        width: 50%;
+
+    }
+    .lab2{
+        width: 90%;
+    }
+  }
+
+
+
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    .lab0 {
+      width: 100%;
+    }
+    .lab1{
+        width: 50%;
+
+    }
+    .lab2{
+        width: 90%;
+    }
+  }

@@ -40,9 +40,105 @@
 
   @media screen and (min-width: 0px) and (max-width: 400px) {
     header, aside, div, footer { background-color: red; }
+  
+  
+  aside{
+    grid-column: 1/6;
+    width: 100%;
+    height: 150px;
+  }
+  .c{
+      grid-column: 1/6;
+      width: 100%;
+      height: 125px;
+      grid-row: 3;
+  }
+  .d{
+      grid-column: 1/6;
+      width: 100%;
+      height: 125px;
+      grid-row: 4;
+  }
+  .e{
+    
+    width: 240px;
+    height: 250px;
+    grid-row: 5;
+  }
+  .f {
+    
+    width: 240px;
+    height: 250px;
+    grid-row: 5;
+  }
+  
+
+  
+  .g{
+    width: 240px;
+    height: 250px;
+    grid-row: 6;
+  }
+  .h{
+    width: 240px;
+    height: 250px;
+    grid-row: 6;
+  }
+  .i{
+      grid-column: 1/6;
+      grid-row: 7;
+  
+  }
 }
 @media screen and (min-width: 401px) and (max-width: 599px) {
   header, aside, div, footer  { background-color: green; }
+  aside{
+    grid-column: 1/6;
+    width: 100%;
+    height: 150px;
+  }
+  .c{
+      grid-column: 1/6;
+      width: 100%;
+      height: 125px;
+      grid-row: 3;
+  }
+  .d{
+      grid-column: 1/6;
+      width: 100%;
+      height: 125px;
+      grid-row: 4;
+  }
+  .e{
+    
+    width: 240px;
+    height: 250px;
+    grid-row: 5;
+  }
+  .f {
+    
+    width: 240px;
+    height: 250px;
+    grid-row: 5;
+  }
+  
+
+  
+  .g{
+    width: 240px;
+    height: 250px;
+    grid-row: 6;
+  }
+  .h{
+    width: 240px;
+    height: 250px;
+    grid-row: 6;
+  }
+  .i{
+      grid-column: 1/6;
+      grid-row: 7;
+  
+  }
 }
 @media screen and (min-width: 786px) {
   header, aside, div, footer  { background-color: blue; }
